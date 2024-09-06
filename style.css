@@ -60,5 +60,9 @@ main {
 
 footer {
     background-color: aquamarine;
-    height: 10%;
+    height: 7%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
