@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: rgb(182, 170, 155);
-    height: 10%;
+    height: 60px;
 
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -56,11 +56,13 @@ header {
 main {
     background-color: aqua;
     flex: 1;
+
+    text-align: justify;
 }
 
 footer {
     background-color: aquamarine;
-    height: 7%;
+    height: 50px;
 
     display: flex;
     justify-content: center;
