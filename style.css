@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +16,41 @@ body {
 header {
     background-color: rgb(182, 170, 155);
     height: 10%;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+#titulo-site {
+    font-family: "Chakra Petch", sans-serif;
+}
+
+#barra-pesquisa {
+    justify-self: right;
+
+    border-radius: 30px 0 0 30px;
+    height: 25px;
+    width: 300px;
+    border: none;
+    padding: 10px;
+}
+
+#botao-pesquisa {
+    justify-self: left;
+
+    border-radius: 0 30px 30px 0;
+    height: 45px;
+    width: 100px;
+    border: none;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+#botao-pesquisa:hover {
+    background-color: gray;
+    color: aliceblue;
 }
 
 main {
