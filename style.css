@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+header {
+    background-color: rgb(182, 170, 155);
+    height: 10%;
+}
+
+main {
+    background-color: aqua;
+    flex: 1;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 10%;
+}
