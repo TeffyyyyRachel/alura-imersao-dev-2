@@ -18,6 +18,8 @@ header {
 
 #pesquisar {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    gap: 20px;
 }
 
 #pesquisar > input {
