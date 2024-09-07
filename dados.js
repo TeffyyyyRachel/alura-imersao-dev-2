@@ -51,4 +51,13 @@ let mangas = [
         desenhista: "Takeshi Obata",
         link: "https://pt.wikipedia.org/wiki/Death_Note"
     },  
+    {
+        capa: "imagens/capas_manga/shingeki_no_kyojin.jpg",
+        alt: "Capa do mangá de Shingeki no Kyojin, primeiro volume",
+        titulo: "Shingeki no Kyojin",
+        descricao: "Para se protegerem dos Titãs, seres enormes com a aparência humana e devoradores de pessoas, a humanidade construiu enormes muralhas de 50 metros para se abrigarem. Houve cerca de um século de paz, até que um Titã de tamanho colossal abriu uma brecha na muralha com apenas um chute. Os Titãs, em seguida, invadem a cidade e fazem uma carnificina. No meio desse ataque, Eren assiste sua própria mãe sendo devorada por um Titã; traumatizado, o garoto decide se vingar e matar todos os Titãs da terra.",
+        escritor: "Hajime Isayama",
+        desenhista: "Hajime Isayama",
+        link: "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin"
+    },
 ];
