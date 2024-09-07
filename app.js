@@ -14,7 +14,7 @@ botao.addEventListener("click", () => {
     for (let dado of mangas) {
 
         if (!barraPesquisa) { //Não mostra nada se a barraPesquisa estiver vazia
-            resultados = "<p class='nada-encontrado'>Nada foi encontrado</p>"
+            resultados = "<p class='nada-encontrado'>Escreva algo na caixa de pesquisa antes de pesquisar</p>"
         }
 
         else if (dado.titulo.toLowerCase().includes(barraPesquisa) || 
@@ -44,6 +44,11 @@ botao.addEventListener("click", () => {
             `
             
         }
+
+    }
+    
+    if (resultados == "") {
+        resultados = "<p class='nada-encontrado'>Nada foi encontrado. Verifique a sua digitação.</p>"
     }
 
     section.innerHTML = resultados
