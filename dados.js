@@ -26,7 +26,7 @@ let mangas = [
         escritor: "Koyoharu Gotouge",
         desenhista: "Koyoharu Gotouge",
         link: "https://pt.wikipedia.org/wiki/Kimetsu_no_Yaiba",
-        tags: "demonio demônio onis oni hashira Tanjiro Nezuko Inosuke Zenitsu taishou"
+        tags: "demonio demônio onis oni hashira Tanjiro Nezuko Inosuke Zenitsu taishou demon slayer"
     },
     {
         capa: "imagens/capas_manga/one_piece.jpg",
@@ -70,6 +70,6 @@ let mangas = [
         escritor: "Hajime Isayama",
         desenhista: "Hajime Isayama",
         link: "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
-        tags: "tita titas titãs gigantes Eren Mikasa Armin"
+        tags: "tita titas titãs gigantes Eren Mikasa Armin attack on titan"
     },
 ];
