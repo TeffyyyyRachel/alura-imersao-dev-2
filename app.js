@@ -21,28 +21,28 @@ botao.addEventListener("click", () => {
         dado.descricao.toLowerCase().includes(barraPesquisa) ||
         dado.tags.toLowerCase().includes(barraPesquisa) ||
         dado.escritor.toLowerCase().includes(barraPesquisa) ||
-        dado.desenhista.toLowerCase().includes(barraPesquisa)) { // Testando se o que foi pesquisado em barraPesquisa existe em algum dos títulos
+        dado.desenhista.toLowerCase().includes(barraPesquisa)) { // Testando se o que foi pesquisado em barraPesquisa existe em alguma parte dos dados
             
             // Se existir, resultados organiza isso em uma div estruturada para ser mostrada
             resultados += `
             <div class="conteudo">
-                <div class="imagem">
-                    <img src="${dado.capa}" alt="${dado.alt}" class="capa-manga">
-                </div>
-                <div class="informacoes">
-                    <h2 class="titulo">${dado.titulo} <span class="publicacao">(${dado.publicacao})</span></h2>
-                    <p class="sinopse">${dado.descricao}</p>
-                    <div class="info-outro">
-                        <div class="autoria">
-                            <div id="escritor"> Escrito por: ${dado.escritor}</div>
-                            <div id="desenhista">Desenhista: ${dado.desenhista}</div>
-                        </div>
-                        <a href="${dado.link}" class="link-infos" target="_blank">Link para mais informações</a>
-                    </div>
-                </div>
+            <div class="imagem">
+            <img src="${dado.capa}" alt="${dado.alt}" class="capa-manga">
+            </div>
+            <div class="informacoes">
+            <h2 class="titulo">${dado.titulo} <span class="publicacao">(${dado.publicacao})</span></h2>
+            <p class="sinopse">${dado.descricao}</p>
+            <div class="info-outro">
+            <div class="autoria">
+            <div id="escritor"> Escrito por: ${dado.escritor}</div>
+            <div id="desenhista">Desenhista: ${dado.desenhista}</div>
+            </div>
+            <a href="${dado.link}" class="link-infos" target="_blank">Link para mais informações</a>
+            </div>
+            </div>
             </div>
             `
-
+            
         }
 
     }
