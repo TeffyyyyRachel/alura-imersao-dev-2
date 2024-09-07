@@ -72,13 +72,13 @@ main {
 
 .conteudo {
     background-color: beige;
-    width: 50vw;
+    width: 700px;
     height: 400px;
     flex: 0 0 auto;
     padding: 10px;
 
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 img {
@@ -90,7 +90,7 @@ img {
 
     display: flex;
     flex-flow: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .info-outro {
