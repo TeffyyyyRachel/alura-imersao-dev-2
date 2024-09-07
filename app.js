@@ -10,7 +10,7 @@ botao.addEventListener("click", () => {
         .value
         .trim();
     // Recebe o que foi pesquisado na barra de pesquisa
-        
+
     for (let dado of mangas) {
 
         if (!barraPesquisa) { //Não mostra nada se a barraPesquisa estiver vazia
