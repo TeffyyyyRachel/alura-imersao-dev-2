@@ -58,6 +58,45 @@ main {
     flex: 1;
 
     text-align: justify;
+    overflow-y: auto;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.conteudo {
+    background-color: beige;
+    width: 50vw;
+    height: 400px;
+    flex: 0 0 auto;
+    padding: 10px;
+
+    display: flex;
+    gap: 10px;
+}
+
+img {
+    height: 100%;
+}
+
+.informacoes {
+    align-self: center;
+
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.info-outro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer {
