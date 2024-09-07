@@ -44,7 +44,6 @@ botao.addEventListener("click", () => {
             `
             
         }
-
     }
 
     section.innerHTML = resultados
