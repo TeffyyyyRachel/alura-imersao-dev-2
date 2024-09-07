@@ -61,6 +61,17 @@ header {
     color: aliceblue;
 }
 
+.nada-encontrado {
+    text-align: center;
+    font-style: italic;
+    background-color: beige;
+    
+    width: 60vw;
+    margin-top: 206px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 main {
     background-color: aqua;
     flex: 1;
